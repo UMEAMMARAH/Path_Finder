@@ -38,3 +38,35 @@ Start and Goal points visually marked
 Configurable grid size, cell size, and search speed
 
 Clear GUI title: “GOOD PERFORMANCE TIME APP”
+
+Installation
+
+Clone this repository:
+
+git clone https://github.com/<your-username>/good-performance-time-app.git
+cd good-performance-time-app
+
+
+Install dependencies:
+
+pip install pygame numpy
+
+
+Run the application:
+
+python main.py
+
+
+Note: Make sure Python 3.x is installed on your system.
+
+Usage
+
+The application automatically runs all six search algorithms sequentially.
+
+Watch the frontier (BLUE), explored nodes (PURPLE), and final path (YELLOW).
+
+Dynamic obstacles appear randomly (GRAY) as the search progresses.
+
+The GUI updates step by step to visualize the algorithm’s decision-making process.
+
+After completion, a final message is displayed: "GOOD PERFORMANCE TIME APP — All algorithms finished."
